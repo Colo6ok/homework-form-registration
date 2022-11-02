@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Site</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="intro">
+            <form class="intro-inner" action="https://echo.htmlacademy.ru" method="POST" autocomplete="off">
+                <h3 class="inner-title">
+                    REGISTARTION FORM
+                </h3>
+                <label class="inner-list" for="user-name">
+                    First name
+                </label>
+                <input type="text" id="user-name" name="user_name" class="inner-item" required>
+                <br>
+                <label class="inner-list" for="user-surname">
+                    Last Name
+                </label>
+                <input type="text" id="user-surname" name="user_surname" class="inner-item" required>
+                <br>
+                <label class="inner-list" for="user-password">
+                   Password  
+                </label>
+                <input type="password" id="user-password" name="user_password" class="inner-item" required>
+                <br>
+                <label class="inner-list" for="user-rapited-password">
+                    Confirm Password
+                </label>
+                <input type="password" id="user-rapited-password" name="user_rapited_password" class="inner-item">
+                <br>
+                <label for="user-gender" class="inner-list">
+                    Gender
+                </label>
+                <select name="user_gender" id="user-gender" class="inner-item">
+                    <option class="inner-" value="select" selected disabled>Select</option>
+                    <option value="femal">Femal</option>
+                    <option value="mele">Mele</option>
+                </select>
+                <br>
+                <label for="user-email-address" class="inner-list">
+                    Email Address
+                </label>
+                <input type="email" id="user-email-address" name="user_email-address" class="inner-item">
+                <br>
+                <label for="user-phone-number" class="inner-list">
+                    Phone Number
+                </label>
+                <input type="tel" value="+998" id="user-phone-number" name="user_phone_number" class="inner-item" required>
+                <br>
+                <label for="user-address" class="intro-list">
+                    Address
+                </label>   
+                <textarea name="user_address" id="user-address" cols="50" rows="7" class="inner-desc" required>Text</textarea>
+                <br>
+                <label for="user-postal-code" class="inner-list">
+                    Postal Code
+                </label>
+                <input type="password" class="inner-item" id="user-postal-code" name="postal_code" required>
+                <br>
+                <label class="inner-checkbox" for="user-agreement" title="agreement-checkbox">
+                    <input type="checkbox" id="user-agreement" name="user_agreement" required>Agreed to terms and conditions
+                </label>
+                <br>
+
+                <lable class="inner-sub-button" title="register-button">
+                    <button class="intro-button" type="submit">Register</button>
+                </lable>
+
+
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

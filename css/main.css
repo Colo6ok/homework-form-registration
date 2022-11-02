@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #fec107;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.intro{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 9px 1px white;
+    border-radius: 30px;
+}
+
+.inner-title{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #fec107;
+}
+
+.inner-list{
+    color: grey;
+    font-size: 18px;
+    margin-right: 60px
+}
+
+.inner-item{
+    margin:8px;
+    padding: 10px;
+    width: 400px;
+    outline: none;
+    border: 1px solid transparent;
+    border-color: grey;
+}
+
+.inner-desc{
+    resize: none;
+}
+
+.intro-list{
+    display: inline-block;
+    color: grey;
+    padding-right: 50px;
+    vertical-align: top;
+}
+
+.intro-button{
+  background-color: #fec107;
+  color: white;
+  border: none;
+  width:500px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.inner-checkbox{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 400px;
+}
+
+.inner-item:focus{
+    border: 1px solid #fec107
+}
